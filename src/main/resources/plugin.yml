@@ -1,0 +1,17 @@
+name: FishChat
+version: 0.1
+main: pl.panryba.mc.chat.Plugin
+depend: [FishPerms]
+permissions:
+    fishchat.interval.bypass:
+        default: op
+    fishchat.manage:
+        default: op
+    fishchat.age.bypass:
+        default: op
+    fishchat.colors:
+        default: op
+commands:
+    chat:
+        permission: fishchat.manage
+        usage: /<command> [on | off]
